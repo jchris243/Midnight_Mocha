@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(210, 187, 140, 0.41);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-family:'Stencil Std';
+    color: black;
+    padding-top: 50px;
+
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Bradley Hand';
+    font-style: italic;
+    color:black;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+p {
+    text-align: center;
+    font-size:25px;
+    font-family:'Stencil Std';
+}
+
+.navbar {
+    background-color: rgba(245, 245, 245, 0.988); 
+    padding: vertical;
+    position: relative;
+    font-size: large; 
+}
+.nav-item{
+    vertical-align: center; 
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.signInModal, .modal-header {
+    background-color: whitesmoke;
+    color: grey; 
+    font-family: 'Gill Sans Nova'; 
+}
+
+.carousel {
+    height:auto;
+    width:100%;
+    padding-top: 50px;
+}
+.carousel-indicators{
+    display: bottom;
+}
+
+#midnightBrew {
+    text-align: center;
+    font-size: 45px;
+    font-family:'Bradley Hand';
+
+}
+
+.site-footer {
+    border-top: 2px solid grey;
+    background-color: rgba(210, 187, 140, 0);
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+ }
