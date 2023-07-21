@@ -20,51 +20,48 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-        <div class="container">
-            <!-- hide image
-            <a class="navbar-brand d-flex" href="#"><img src="../img/coffee_clipart.png" height="100" width="100" /></a>
-            -->
-            <!-- collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#midnightNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="midnightNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-4 active"><a class="nav-link" href="#">
-                             About </a>
-                    </li>
-                    <li class="nav-item px-4"><a class="nav-link" href="#">
-                             Menu </a>
-                    </li>
-                    <li class="nav-item px-4"><a class="nav-link" href="#">
-                        Order </a>
-                </li>
-                </ul>
-            
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#midnightNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="midnightNavbar">
-                    <!-- Navbar brand-->
-                    <a class="navbar-brand d-none-xs px-4" href= '#'><img src="../img/coffee_clipart.png" height="80"
-                            width="80" /> <br> Midnight Mocha</a></br>
-                </div>
-            
-                <ul class="navbar-nav">
-                    <li class="nav-item px-4"><a class="nav-link" href="#">
-                             Reserve </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4 active"><a class="nav-link" href="#ourCoffee">
+                                About </a>
+                        </li>
+                        <li class="nav-item px-4"><a class="nav-link" href="#">
+                                Menu </a>
+                        </li>
+                        <li class="nav-item px-4"><a class="nav-link" href="#">
+                            Order </a>
                     </li>
-                    <li class="nav-item px-4"><a class="nav-link" href="#">
-                            Contact</a></li>
-                </ul>
-                <span class="navbar-text ml-auto px-4">
-                    <button type="button" class="btn btn-outline-dark" id="signInBtn">
-                        <i class="fa fa-user-circle"></i> Sign In
-                        </button>
-                </span>
+                    </ul>
+                
+                    <div class="collapse navbar-collapse relative" id="midnightNavbar">
+                        <!-- Navbar brand-->
+                        <a class="navbar-brand px-4" href= 'index.html'><img src="../img/coffee_clipart.png" height="80"
+                                width="80" /> <br> Midnight Mocha</a></br>
+                    </div>
+                
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4"><a class="nav-link" href="#">
+                                Reserve </a>
+                        </li>
+                        <li class="nav-item px-4"><a class="nav-link" href="#">
+                                Contact</a></li>
+                    </ul>
+                    <span class="navbar-text ml-auto px-4">
+                        <button type="button" class="btn btn-outline-dark" id="signInBtn">
+                            <i class="fa fa-user-circle"></i> Sign In
+                            </button>
+                    </span>
 
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
     <!-- Login Modal -->
     <div id="signInModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
@@ -105,6 +102,14 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1> Start Your Morning Right </h1>
+                <p id="midnightBrew"> -- With a Cup of Midnight Brew </p>
+            </div>
+        </div>
+    </div>
     <!-- Carousel -->
 
     <div class="container">
@@ -119,20 +124,31 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/yellow_cup.jpg" alt="Yellow cup of Coffee" />
+                            <img class="img-fluid w-100" src="img/yellow_cup.jpg" alt="Yellow cup of Coffee" />
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/sketch_cup.jpg" alt="Sketch Cup" />
+                            <img class="img-fluid w-100" src="img/sketch_cup.jpg" alt="Sketch Cup" />
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/collaborate.jpg" alt="Collaborative Space" />
+                            <img class="img-fluid w-100" src="img/collaborate.jpg" alt="Collaborative Space" />
                         </div>
                     </div>
                  </div>
             </div>
         </div>
 
+    <div class="container">
+        <div class="row row-content">
+            <div class="col" id="ourCoffee">
+                <h2> Our Coffee</h2>
+                <p> Midnight Mocha offer the finest selection of coffees. Started out as a mobile café in richmond, and slowly
+                    transitioned to a brick and mortar you see today. Our coffee beans are sustainably sourced from all
+                    around the globe, to bring you the highest quality brew. 
+                    Check out our large selection of over 20 types of freshly roasted coffees and 30 exotic teas</p>
+            </div>
 
+        </div>
+    </div>
 
 
 
